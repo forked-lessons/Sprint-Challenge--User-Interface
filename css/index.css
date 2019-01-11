@@ -205,8 +205,25 @@ nav a {
 }
 
 .item {
-    width: 48%;
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding: 20px 0;
 }
+
+.item button {
+    border-radius: 8px;
+    background: white;
+    border: black solid 2px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.about-bottom-content {
+    margin: 30px 0;
+}
+
+
 footer {
     width: 100%;
     background: black;
