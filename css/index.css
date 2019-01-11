@@ -71,23 +71,47 @@ p {
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    justify-content: row;
-    justify-content: space-between;
+.help {
+    border: solid red 1px;
 }
 
 
 nav {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav-row {
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 20px 0 30px 0;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.top-layout {
     display: flex;
     flex-direction: row;
 }
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: space-around;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -121,6 +145,37 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: yellow;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
