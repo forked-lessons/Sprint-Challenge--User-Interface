@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is used to clearly markup the content of your page. The tags should fit with the content of the page and make the structure of different parts of your website more clear. An example of the would be using clear tags such as <header> <nav> <footer> and <section> as opposed to all <div> tags to display content. This allows more accessible webpages as well as keeping your webpage more organized overall. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The first big difference between display: block and display: inline is that a block will spread horizontally to fill as much space possible, where and inline element will only take the space necessary. Another big difference is that and inline element will not start a new line automatically, and a block element will spread to a new line if it needs more space. 
 
 3. What are the 4 areas of the box model?
 
+Content - the center of the box and where your content will sit in the box
+padding - the space between your border and content
+Border -  the perimeter around the padding
+Margin - space outside the border
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items:center works on the the cross-axis. This is the vertical axis. This command would align the items vertically in the container they were located. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is so valuable because it allows many developers to work on the same project. It allows version control which is important if you need to revert to a previous version of your build or to make sure any new components a developer is working on do not break the overall system. It allows you to see all the code that has changed when a new pull request is made and allows project managers to keep their projects organized. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
