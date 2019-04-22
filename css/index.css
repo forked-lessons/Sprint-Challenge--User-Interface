@@ -71,12 +71,56 @@ p {
     margin: 0 auto;
 }
 
+.help {
+    border: solid red 1px;
+}
+
+
+nav {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+}
+.top-nav-row {
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 20px 0 30px 0;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.top-layout {
+    display: flex;
+    flex-direction: row;
+}
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: space-around;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -112,6 +156,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: yellow;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +199,84 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about {
+    padding: 20px 0;
+    margin: 0 0 30px 0;
+    border-bottom: dashed black 1px;
+}
+
+.body-content {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding: 20px 0;
+}
+
+.item button {
+    border-radius: 8px;
+    background: white;
+    border: black solid 2px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.item button:hover {
+    background-color: darkred;
+}
+
+.about-bottom-content {
+    margin: 30px 0;
+}
+
+.contact-main-head {
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 30px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: darkred;
+  }
+  
+  /* Add a background color and some padding around the form */
+.form-layout {
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: 20px;
+  }
+
+.form-layout {
+    margin: 30px 0;
 }
 
 footer {
